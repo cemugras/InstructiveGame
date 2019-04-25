@@ -42,6 +42,7 @@
             this.ExitConfirm.Size = new System.Drawing.Size(281, 20);
             this.ExitConfirm.TabIndex = 0;
             this.ExitConfirm.Text = "Çıkış yapmak istediğinize emin misiniz?";
+            this.ExitConfirm.Click += new System.EventHandler(this.ExitConfirm_Click);
             // 
             // ExitButton
             // 
@@ -74,6 +75,7 @@
             this.Controls.Add(this.ExitConfirm);
             this.Name = "MenuExit";
             this.Text = "MenuExit";
+            this.Load += new System.EventHandler(this.MenuExit_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

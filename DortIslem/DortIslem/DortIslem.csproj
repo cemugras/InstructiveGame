@@ -46,7 +46,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bölme İşlemi\Div.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bölme İşlemi\Div.Designer.cs">
+      <DependentUpon>Div.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bölme İşlemi\Div1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bölme İşlemi\Div1.Designer.cs">
+      <DependentUpon>Div1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bölme İşlemi\Div2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bölme İşlemi\Div2.Designer.cs">
+      <DependentUpon>Div2.cs</DependentUpon>
+    </Compile>
     <Compile Include="NumericCheck.cs" />
+    <Compile Include="Sound.cs" />
     <Compile Include="Toplama İşlemi\Addition1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,6 +110,24 @@
     <Compile Include="Toplama İşlemi\Addition2.Designer.cs">
       <DependentUpon>Addition2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Çarpma İşlemi\Multi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Çarpma İşlemi\Multi.Designer.cs">
+      <DependentUpon>Multi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Çarpma İşlemi\Multi1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Çarpma İşlemi\Multi1.Designer.cs">
+      <DependentUpon>Multi1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Çarpma İşlemi\Multi2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Çarpma İşlemi\Multi2.Designer.cs">
+      <DependentUpon>Multi2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Çıkarma İşlemi\Minus.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,6 +146,15 @@
     <Compile Include="Çıkarma İşlemi\Minus2.Designer.cs">
       <DependentUpon>Minus2.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Bölme İşlemi\Div.resx">
+      <DependentUpon>Div.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bölme İşlemi\Div1.resx">
+      <DependentUpon>Div1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bölme İşlemi\Div2.resx">
+      <DependentUpon>Div2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Toplama İşlemi\Addition.resx">
       <DependentUpon>Addition.cs</DependentUpon>
     </EmbeddedResource>
@@ -138,6 +184,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Toplama İşlemi\Addition2.resx">
       <DependentUpon>Addition2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Çarpma İşlemi\Multi.resx">
+      <DependentUpon>Multi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Çarpma İşlemi\Multi1.resx">
+      <DependentUpon>Multi1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Çarpma İşlemi\Multi2.resx">
+      <DependentUpon>Multi2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Çıkarma İşlemi\Minus.resx">
       <DependentUpon>Minus.cs</DependentUpon>

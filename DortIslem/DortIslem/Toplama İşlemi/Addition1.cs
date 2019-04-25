@@ -35,15 +35,18 @@ namespace DortIslem
                 if (sayi3 == sayi + sayi2)
                 {
                     Sonuc.Text = "Sonuc Dogru, Tebrikler";
+                    DortIslem.Sound.TrueSound();
                 }
                 else if (sayi3 != sayi + sayi2)
                 {
                     Sonuc.Text = "Sonuc Yanlis, Tekrar Deneyin";
+                    DortIslem.Sound.WrongSound();
                 }
             }
             else
             {
                 Sonuc.Text = "Girilen Değer Rakam Değil.";
+                DortIslem.Sound.WrongSound();
             }
         }
 
@@ -80,6 +83,7 @@ namespace DortIslem
         private void ReturnMain_Click(object sender, EventArgs e)
         {
             this.Close();
+            DortIslem.Sound.IntroSound();
         }
     }
 }

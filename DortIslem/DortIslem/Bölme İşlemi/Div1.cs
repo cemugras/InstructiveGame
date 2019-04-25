@@ -8,41 +8,34 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DortIslem.Çıkarma_İşlemi
+namespace DortIslem.Bölme_İşlemi
 {
-    public partial class Minus1 : Form
+    public partial class Div1 : Form
     {
         int sayi;
         int sayi2;
-        public Minus1()
+        int sayi3;
+        public Div1()
         {
             InitializeComponent();
 
             Random rastgele = new Random();
-            sayi2 = rastgele.Next(1, 9);
-            sayi = rastgele.Next(sayi2,10);
-            
-            add1.Text = sayi.ToString();
-            add2.Text = sayi2.ToString();
+            sayi2 = rastgele.Next(2, 6);
+            sayi = rastgele.Next(1, 10);
+
+            sayi3 = sayi * sayi2;
+
+            add1.Text = sayi3.ToString();
+            add2.Text = sayi.ToString();
         }
 
-        private void Addition_TextChanged(object sender, EventArgs e)
+        private void ButtonDiv_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void Sonuc_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void ButtonMinus_Click(object sender, EventArgs e)
-        {
-            string sonuc = Addition.Text;
+            string sonuc = Dividing.Text;
             if (sonuc.IsNumeric())
             {
-                int sayi3 = Convert.ToInt32(sonuc);
-                if (sayi3 == sayi - sayi2)
+                int sayi4 = Convert.ToInt32(sonuc);
+                if (sayi4 == sayi3 / sayi)
                 {
                     Sonuc.Text = "Sonuc Dogru, Tebrikler";
                     DortIslem.Sound.TrueSound();
@@ -60,27 +53,29 @@ namespace DortIslem.Çıkarma_İşlemi
             }
         }
 
-        private void ButtonRefresh_Click_1(object sender, EventArgs e)
+        private void ButtonRefresh_Click(object sender, EventArgs e)
         {
             Random rastgele = new Random();
-            sayi2 = rastgele.Next(1, 9);
-            sayi = rastgele.Next(sayi2, 10);
+            sayi2 = rastgele.Next(2, 6);
+            sayi = rastgele.Next(1, 10);
 
-            add1.Text = sayi.ToString();
-            add2.Text = sayi2.ToString();
+            sayi3 = sayi * sayi2;
 
-            Addition.Clear();
+            add1.Text = sayi3.ToString();
+            add2.Text = sayi.ToString();
+
+            Dividing.Clear();
             Sonuc.Text = "Lutfen işlemi tamamlayınız.";
         }
 
-        private void ReturnMinus_Click(object sender, EventArgs e)
+        private void ReturnDiv_Click(object sender, EventArgs e)
         {
             this.Close();
-            Minus cikarma = new Minus();
-            cikarma.Show();
+            Div bolme = new Div();
+            bolme.Show();
         }
 
-        private void ReturnMain_Click_1(object sender, EventArgs e)
+        private void ReturnMain_Click(object sender, EventArgs e)
         {
             this.Close();
             DortIslem.Sound.IntroSound();

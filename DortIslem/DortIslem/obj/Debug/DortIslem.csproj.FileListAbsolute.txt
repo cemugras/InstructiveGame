@@ -32,3 +32,9 @@ C:\Users\PC\Desktop\DortIslem\DortIslem\DortIslem\obj\Debug\DortIslem.Çıkarma_
 C:\Users\PC\Desktop\DortIslem\DortIslem\DortIslem\obj\Debug\DortIslem.Çıkarma_İşlemi.Minus1.resources
 C:\Users\PC\Desktop\DortIslem\DortIslem\DortIslem\obj\Debug\DortIslem.Çıkarma_İşlemi.Minus2.resources
 C:\Users\PC\Desktop\DortIslem\DortIslem\DortIslem\obj\Debug\DortIslem.MainMenu.resources
+C:\Users\PC\Desktop\DortIslem\DortIslem\DortIslem\obj\Debug\DortIslem.Çarpma_İşlemi.Multi.resources
+C:\Users\PC\Desktop\DortIslem\DortIslem\DortIslem\obj\Debug\DortIslem.Çarpma_İşlemi.Multi1.resources
+C:\Users\PC\Desktop\DortIslem\DortIslem\DortIslem\obj\Debug\DortIslem.Çarpma_İşlemi.Multi2.resources
+C:\Users\PC\Desktop\DortIslem\DortIslem\DortIslem\obj\Debug\DortIslem.Bölme_İşlemi.Div.resources
+C:\Users\PC\Desktop\DortIslem\DortIslem\DortIslem\obj\Debug\DortIslem.Bölme_İşlemi.Div1.resources
+C:\Users\PC\Desktop\DortIslem\DortIslem\DortIslem\obj\Debug\DortIslem.Bölme_İşlemi.Div2.resources

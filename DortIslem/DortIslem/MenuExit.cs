@@ -26,5 +26,15 @@ namespace DortIslem
         {
             this.Close();
         }
+
+        private void ExitConfirm_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MenuExit_Load(object sender, EventArgs e)
+        {
+            Sound.ExitSound();
+        }
     }
 }

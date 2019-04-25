@@ -8,38 +8,33 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DortIslem.Çıkarma_İşlemi
+namespace DortIslem.Çarpma_İşlemi
 {
-    public partial class Minus : Form
+    public partial class Multi : Form
     {
-        public Minus()
+        public Multi()
         {
             InitializeComponent();
         }
 
-        private void Level1Minus_Click(object sender, EventArgs e)
+        private void Level1Multi_Click(object sender, EventArgs e)
         {
-            Minus1 level1 = new Minus1();
+            Multi1 level1 = new Multi1();
             level1.Show();
             this.Close();
         }
 
-        private void MainMenu_Click_1(object sender, EventArgs e)
+        private void MainMenu_Click(object sender, EventArgs e)
         {
             this.Close();
             DortIslem.Sound.IntroSound();
         }
 
-        private void Level2Minus_Click(object sender, EventArgs e)
+        private void Level2Multi_Click(object sender, EventArgs e)
         {
-            Minus2 level2 = new Minus2();
+            Multi2 level2 = new Multi2();
             level2.Show();
             this.Close();
-        }
-
-        private void Notification_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

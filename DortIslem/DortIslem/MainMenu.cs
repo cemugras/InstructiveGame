@@ -19,12 +19,14 @@ namespace DortIslem
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            DortIslem.Çarpma_İşlemi.Multi carpma = new DortIslem.Çarpma_İşlemi.Multi();
+            carpma.Show();
         }
 
         private void MainMenu_Load(object sender, EventArgs e)
         {
-
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            DortIslem.Sound.IntroSound();
         }
 
         private void ayarlarToolStripMenuItem_Click(object sender, EventArgs e)
@@ -65,6 +67,12 @@ namespace DortIslem
         {
             DortIslem.Çıkarma_İşlemi.Minus cikarma = new DortIslem.Çıkarma_İşlemi.Minus();
             cikarma.Show();
+        }
+
+        private void DivideButton_Click(object sender, EventArgs e)
+        {
+            DortIslem.Bölme_İşlemi.Div bolme = new Bölme_İşlemi.Div();
+            bolme.Show();
         }
     }
 }

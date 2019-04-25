@@ -45,21 +45,25 @@ namespace DortIslem.Çıkarma_İşlemi
                 if (sayi3 == sayi - sayi2)
                 {
                     Sonuc.Text = "Sonuc Dogru, Tebrikler";
+                    DortIslem.Sound.TrueSound();
                 }
                 else
                 {
                     Sonuc.Text = "Sonuc Yanlis, Tekrar Deneyin";
+                    DortIslem.Sound.WrongSound();
                 }
             }
             else
             {
                 Sonuc.Text = "Girilen Değer Rakam Değil.";
+                DortIslem.Sound.WrongSound();
             }
         }
 
         private void ReturnMain_Click(object sender, EventArgs e)
         {
             this.Close();
+            DortIslem.Sound.IntroSound();
         }
 
         private void ReturnMinus_Click_1(object sender, EventArgs e)

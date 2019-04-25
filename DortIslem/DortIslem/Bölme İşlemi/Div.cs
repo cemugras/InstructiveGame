@@ -8,28 +8,25 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DortIslem
+namespace DortIslem.Bölme_İşlemi
 {
-
-    public partial class Addition : Form
+    public partial class Div : Form
     {
-        
-
-        public Addition()
+        public Div()
         {
             InitializeComponent();
         }
 
-        private void Level1Sum_Click(object sender, EventArgs e)
+        private void Level1Div_Click(object sender, EventArgs e)
         {
-            Addition1 level1 = new Addition1();
+            Div1 level1 = new Div1();
             level1.Show();
             this.Close();
         }
 
-        private void Level2Sum_Click(object sender, EventArgs e)
+        private void Level2Div_Click(object sender, EventArgs e)
         {
-            DortIslem.Toplama_İşlemi.Addition2 level2 = new DortIslem.Toplama_İşlemi.Addition2();
+            Div2 level2 = new Div2();
             level2.Show();
             this.Close();
         }

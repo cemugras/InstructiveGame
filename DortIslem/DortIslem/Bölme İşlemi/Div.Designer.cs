@@ -1,6 +1,6 @@
-﻿namespace DortIslem.Çıkarma_İşlemi
+﻿namespace DortIslem.Bölme_İşlemi
 {
-    partial class Minus
+    partial class Div
     {
         /// <summary>
         /// Required designer variable.
@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.MainMenu = new System.Windows.Forms.Button();
-            this.Level2Minus = new System.Windows.Forms.Button();
-            this.Level1Minus = new System.Windows.Forms.Button();
+            this.Level2Div = new System.Windows.Forms.Button();
+            this.Level1Div = new System.Windows.Forms.Button();
             this.Notification = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -39,30 +39,30 @@
             this.MainMenu.Location = new System.Drawing.Point(139, 227);
             this.MainMenu.Name = "MainMenu";
             this.MainMenu.Size = new System.Drawing.Size(75, 23);
-            this.MainMenu.TabIndex = 8;
+            this.MainMenu.TabIndex = 20;
             this.MainMenu.Text = "Ana Menü";
             this.MainMenu.UseVisualStyleBackColor = true;
-            this.MainMenu.Click += new System.EventHandler(this.MainMenu_Click_1);
+            this.MainMenu.Click += new System.EventHandler(this.MainMenu_Click);
             // 
-            // Level2Minus
+            // Level2Div
             // 
-            this.Level2Minus.Location = new System.Drawing.Point(16, 118);
-            this.Level2Minus.Name = "Level2Minus";
-            this.Level2Minus.Size = new System.Drawing.Size(75, 23);
-            this.Level2Minus.TabIndex = 7;
-            this.Level2Minus.Text = "Seviye - 2";
-            this.Level2Minus.UseVisualStyleBackColor = true;
-            this.Level2Minus.Click += new System.EventHandler(this.Level2Minus_Click);
+            this.Level2Div.Location = new System.Drawing.Point(16, 118);
+            this.Level2Div.Name = "Level2Div";
+            this.Level2Div.Size = new System.Drawing.Size(75, 23);
+            this.Level2Div.TabIndex = 19;
+            this.Level2Div.Text = "Seviye - 2";
+            this.Level2Div.UseVisualStyleBackColor = true;
+            this.Level2Div.Click += new System.EventHandler(this.Level2Div_Click);
             // 
-            // Level1Minus
+            // Level1Div
             // 
-            this.Level1Minus.Location = new System.Drawing.Point(16, 89);
-            this.Level1Minus.Name = "Level1Minus";
-            this.Level1Minus.Size = new System.Drawing.Size(75, 23);
-            this.Level1Minus.TabIndex = 6;
-            this.Level1Minus.Text = "Seviye - 1";
-            this.Level1Minus.UseVisualStyleBackColor = true;
-            this.Level1Minus.Click += new System.EventHandler(this.Level1Minus_Click);
+            this.Level1Div.Location = new System.Drawing.Point(16, 89);
+            this.Level1Div.Name = "Level1Div";
+            this.Level1Div.Size = new System.Drawing.Size(75, 23);
+            this.Level1Div.TabIndex = 18;
+            this.Level1Div.Text = "Seviye - 1";
+            this.Level1Div.UseVisualStyleBackColor = true;
+            this.Level1Div.Click += new System.EventHandler(this.Level1Div_Click);
             // 
             // Notification
             // 
@@ -70,22 +70,21 @@
             this.Notification.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Notification.Location = new System.Drawing.Point(12, 9);
             this.Notification.Name = "Notification";
-            this.Notification.Size = new System.Drawing.Size(327, 20);
-            this.Notification.TabIndex = 5;
-            this.Notification.Text = "Çıkarma egzersiz sayfasına hoşgeldiniz.";
-            this.Notification.Click += new System.EventHandler(this.Notification_Click);
+            this.Notification.Size = new System.Drawing.Size(312, 20);
+            this.Notification.TabIndex = 17;
+            this.Notification.Text = "Bölme egzersiz sayfasına hoşgeldiniz.";
             // 
-            // Minus
+            // Div
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(377, 287);
             this.Controls.Add(this.MainMenu);
-            this.Controls.Add(this.Level2Minus);
-            this.Controls.Add(this.Level1Minus);
+            this.Controls.Add(this.Level2Div);
+            this.Controls.Add(this.Level1Div);
             this.Controls.Add(this.Notification);
-            this.Name = "Minus";
-            this.Text = "Minus";
+            this.Name = "Div";
+            this.Text = "Div";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -94,8 +93,8 @@
         #endregion
 
         private System.Windows.Forms.Button MainMenu;
-        private System.Windows.Forms.Button Level2Minus;
-        private System.Windows.Forms.Button Level1Minus;
+        private System.Windows.Forms.Button Level2Div;
+        private System.Windows.Forms.Button Level1Div;
         private System.Windows.Forms.Label Notification;
     }
 }

@@ -41,15 +41,18 @@ namespace DortIslem.Toplama_İşlemi
                 if (sayi3 == sayi + sayi2)
                 {
                     Sonuc.Text = "Sonuc Dogru, Tebrikler";
+                    DortIslem.Sound.TrueSound();
                 }
                 else
                 {
                     Sonuc.Text = "Sonuc Yanlis, Tekrar Deneyin";
+                    DortIslem.Sound.WrongSound();
                 }
             }
             else
             {
                 Sonuc.Text = "Girilen Değer Rakam Değil.";
+                DortIslem.Sound.WrongSound();
             }
         }
 
@@ -76,6 +79,7 @@ namespace DortIslem.Toplama_İşlemi
         private void ReturnMain_Click(object sender, EventArgs e)
         {
             this.Close();
+            DortIslem.Sound.IntroSound();
         }
     }
 }

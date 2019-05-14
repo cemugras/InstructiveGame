@@ -24,5 +24,5 @@ The application includes 4 operations in math;
 * Musics;
     Main menu music.
     Successful process music.
-    Unsuccessgul process music.
+    Unsuccessful process music.
     
